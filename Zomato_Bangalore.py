@@ -19,7 +19,7 @@ import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 
 # Importing the dataset
-df = pd.read_csv('D:\Docs\DS\Zomato_bangalore\zomato.csv')
+df = pd.read_csv('zomato.csv')
 
 # Deleting unnnecessary columns
 df = df.drop(['url', 'address','phone', 'dish_liked', 'reviews_list', 'menu_item', 'cuisines'], axis = 1)
